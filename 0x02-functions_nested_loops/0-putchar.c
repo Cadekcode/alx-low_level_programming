@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- * _putchar - prints _putchar.
+ * main - prints _putchar.
  *
  * Return: always 0 if successful.
  */
 
-int _putchar(void)
+int _putchar(char c)
+{
+    return putchar(c);
+}
+
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
