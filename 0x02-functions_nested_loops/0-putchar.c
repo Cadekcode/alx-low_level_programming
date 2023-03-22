@@ -2,13 +2,13 @@
 
 /**
  * main - prints _putchar.
- *
+ * _putchar - prints the char.
  * Return: always 0 if successful.
  */
 
 int _putchar(char c)
 {
-    return putchar(c);
+	return (putchar(c));
 }
 
 int main(void)
