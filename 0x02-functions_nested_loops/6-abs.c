@@ -2,15 +2,13 @@
 
 /**
  * _abs - print the absolute value of an integers.
- *
+ * @n: the integers
  * Return: 0 is successful.
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int r;
-
-	if (r >= 0);
+	if (n >= 0)
 		return (n);
 	else
 		return (-n);
