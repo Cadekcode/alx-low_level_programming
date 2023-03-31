@@ -9,21 +9,21 @@
 
 char *leet(char *s)
 {
-    int i, j;
-    char map[] = "aAeEoOtTlL";
-    char code[] = "4433007711";
+	int i, j;
+	char map[] = "aAeEoOtTlL";
+	char code[] = "4433007711";
 
-    for (i = 0; s[i] != '\0'; i++)
-    {
-        for (j = 0; map[j] != '\0'; j++)
-        {
-            if (s[i] == map[j])
-            {
-                s[i] = code[j];
-            }
-        }
-    }
+	for (i = 0; s[i] != '\0'; i++)
+	{
+	for (j = 0; map[j] != '\0'; j++)
+	{
+	if (s[i] == map[j])
+	{
+	s[i] = code[j];
+	}
+	}
+	}
 
-    return s;
+	return (s);
 }
 
