@@ -4,7 +4,7 @@
  * factorial - function to print s factorial.
  * @n: number to be printed.
  *
- * Return: 1 is succesful
+ * Return: n.
  */
 
 int factorial(int n)
