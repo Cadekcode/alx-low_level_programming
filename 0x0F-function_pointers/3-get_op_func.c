@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-  * get_op_func - selects the correct function to perform the operation asked by the user.
+  * get_op_func - selects the correct function to perform.
   * @s: strings to be perform
   *
   * Return: successful 0.
